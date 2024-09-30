@@ -1,1 +1,1 @@
-export * from "./LoginWithAccount";
+export { default as LoginWithAccount } from "./LoginWithAccount";
