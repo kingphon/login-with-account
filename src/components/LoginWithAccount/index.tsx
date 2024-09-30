@@ -15,7 +15,7 @@ const LoginWithAccount = (props: Props) => {
     const top = (window.innerHeight - popupHeight) / 2;
 
     const loginPopup = window.open(
-      `http://localhost:3001/?origin=${window.location.origin}&redirectUrl=${window.location.origin}`,
+      `http://localhost:3001/?origin=${window.location.host}&redirectUrl=${window.location.origin}`,
       "Login",
       `width=${popupWidth},height=${popupHeight},top=${top},left=${left}`,
     );
